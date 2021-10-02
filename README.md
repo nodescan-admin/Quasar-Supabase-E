@@ -6,14 +6,14 @@ and translated to English.
 
 After downloading or cloning the directory:
 1) Type npm install or yarn install
-2) Create a .env file and add it to the top level dirctory with this content:
+2) Create an '.env' file and add it to the top level dirctory with this content:
 
   VITE_SUPABASE_URL=<URL_from_your_supabase_account><br/>
   VITE_SUPABASE_ANON_KEY=<KEY_from_your_supabase_account>
 
-3) Type Quasar dev
+3) Type quasar dev
 
-If the initial page is blank go to localhost:3000/auth/login
+If the initial page is blank, go to localhost:3000/auth/login
 
 Changes:
 1) Added MagicLink login option
@@ -23,6 +23,7 @@ Issues
 
 Notes:
 1) Login with Github and Google need to be enabled in Supabase
-2) If only an email address is provided when the registration is submitted MagicLink (email) login will be enabled. (Its not tested whether its possible to add a password later)
+2) If only an email address is provided when the registration is submitted MagicLink (email) login will be enabled. (It's not tested whether it's possible to add a password later.)
 
 Any comments and suggestions to admin @ nodescan dot com
+Thanks
